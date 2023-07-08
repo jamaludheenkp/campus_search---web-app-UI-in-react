@@ -4,7 +4,7 @@
 
 .nav {
     color: black !important;
-    letter-spacing: .5px;
+    letter-spacing: .8px;
 }
 .nav .nav-menu:hover {
     color: rgb(42, 42, 236) !important;  
@@ -15,7 +15,16 @@
     margin-top: 8px;
 }
 
-.btn-outline-primary {
+.nav-right .btn-login{
     color: black;
-    
+    background-color: white;
+    border: none;
+    letter-spacing: .8px;
+
+}
+.nav-right .btn-sign {
+    background-color: white;
+    color: black;
+    letter-spacing: .8px;
+
 }

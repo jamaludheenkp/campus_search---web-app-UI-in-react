@@ -1,0 +1,16 @@
+.raw {
+    text-align: center;
+    justify-items: center;
+}
+.btn-course {
+background-color: rgba(168, 202, 229, 0.298);
+box-shadow: 5px 10px 10px 5px #28262641;
+padding:10px 40px;
+border-radius: 30px;
+margin-left: 30px;
+margin-top: 25px;
+
+}
+.btn-course:hover {
+    background-color: rgba(168, 202, 229, 0.41);
+}

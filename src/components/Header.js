@@ -13,14 +13,13 @@ function Header() {
   return (
     <>
     <section>
-
-      <Navbar expand="lg" className="bg-white">
+      <Navbar expand="lg" className="navbar fixed-top bg-white">
         <Container fluid>
           <Navbar.Brand class="navbar-brand" as={Link} to={"/"}>
             <img src={logo} alt="logo" width="250px" height="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Collapse id="navbarScroll" className='me-auto'>
             <Nav className="nav me-auto my-3 px-4"navbarScroll>
               <Nav.Link className='nav-menu p-3' as={Link} to={"/"} active >Home</Nav.Link>
               <Nav.Link className='nav-menu p-3'as={Link} to={"/courses"}>Courses</Nav.Link>
@@ -28,15 +27,15 @@ function Header() {
               <Nav.Link className='nav-menu p-3' as={Link} to={"guide"} > Guide </Nav.Link>
               {/* <Nav.Link className='nav-menu p-3' href="#more"> More </Nav.Link> */}
               <NavDropdown title="More" className='nav-menu p-2' id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action3">About us </NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
-                  Another action
+                  Blog
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action5">
-                Something else
+                Contact us 
                 </NavDropdown.Item>
               </NavDropdown>
-            <Form className="search-bar my-1">
+            <Form className="search-top my-1">
               <Form.Control
                 type="search"
                 placeholder=" 🔍    Search"

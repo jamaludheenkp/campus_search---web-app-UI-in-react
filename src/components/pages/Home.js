@@ -1,10 +1,15 @@
 import React from 'react'
+import Banner from '../Banner.js'
 
 function Home() {
   return (
-    <div className='text-center'>
-        <h1> home content </h1>
-    </div>
+    <>
+      <section>
+        <div >
+        <Banner />
+        </div>
+      </section>
+    </>
   )
 }
 

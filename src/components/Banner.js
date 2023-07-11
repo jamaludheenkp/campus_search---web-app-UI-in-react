@@ -4,6 +4,8 @@ import { Button, Container} from 'react-bootstrap'
 import img_log from '../img/img-admin.jpg'
 import {BiSolidDownArrow} from 'react-icons/bi'
 import CoursesButton from './CoursesButton'
+import WhiteBanner from './WhiteBanner'
+
 
 
 
@@ -28,6 +30,9 @@ function Banner() {
         </div>
           <div>
             <CoursesButton />
+          </div>
+          <div>
+            <WhiteBanner />
           </div>
         </Container>
     </div>

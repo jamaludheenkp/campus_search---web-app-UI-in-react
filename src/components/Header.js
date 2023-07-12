@@ -25,7 +25,6 @@ function Header() {
               <Nav.Link className='nav-menu p-3'as={Link} to={"/courses"}>Courses</Nav.Link>
               <Nav.Link className='nav-menu p-3' as={Link} to={"/universities"}> Universities</Nav.Link>
               <Nav.Link className='nav-menu p-3' as={Link} to={"guide"} > Guide </Nav.Link>
-              {/* <Nav.Link className='nav-menu p-3' href="#more"> More </Nav.Link> */}
               <NavDropdown title="More" className='nav-menu p-2' id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">About us </NavDropdown.Item>
                 <NavDropdown.Item href="#action4">

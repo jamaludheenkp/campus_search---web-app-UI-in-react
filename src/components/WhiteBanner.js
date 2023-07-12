@@ -3,7 +3,6 @@ import './WhiteBanner.css'
 import w_poster from '../img/WhiteBanner.jpg'
 
 
-
 function WhiteBanner() {
   return (
     <>

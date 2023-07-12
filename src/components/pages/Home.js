@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../Banner.js'
 import Services from '../Services.js'
+import ExploreBox from '../ExploreBox.js'
+
 
 
 function Home() {
@@ -14,6 +16,9 @@ function Home() {
       <section>
         <div>
           <Services />
+        </div>
+        <div>
+          <ExploreBox />
         </div>
       </section>
     </>

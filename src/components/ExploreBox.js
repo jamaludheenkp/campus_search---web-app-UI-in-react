@@ -12,7 +12,7 @@ function ExploreBox() {
             <Container fluid>
             <div className="row">
                 <div className='col-md-8'>
-                  <div className='exp '>
+                  <div className='exp'>
                     <h2>
                     Explore <span className='text-warning'> 5000+ </span> Courses <br />
                     and <span className='text-warning'> 500+ </span> Universities
@@ -21,7 +21,7 @@ function ExploreBox() {
                     With Campus Search, you can find a study abroad <br/> course that fits your interests and goals
                     </p>
                     <div className="row exp_lab">
-                      <div className='col-md-6 '>
+                      <div className='col-md-6'>
                           <label for="" className='exp_label text-warning fs-5 p-2 pt-4 d-inline-block'> Are you looking for</label>
                           <Form.Select className='exploreSelect rounded-4' id='course_level' name='course_level' aria-label='Default' size='lg'>
                             <option value="0"> Select Your Degree </option>

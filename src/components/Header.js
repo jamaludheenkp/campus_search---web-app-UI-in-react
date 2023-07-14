@@ -13,7 +13,7 @@ function Header() {
   return (
     <>
     <section>
-      <Navbar expand="lg" className="navbar fixed-top bg-light">
+      <Navbar expand="lg" className="navbar fixed-top bg-white">
         <Container fluid>
           <Navbar.Brand class="navbar-brand" as={Link} to={"/"}>
             <img src={logo} alt="logo" width="250px" height="" />

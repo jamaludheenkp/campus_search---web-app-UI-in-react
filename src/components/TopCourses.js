@@ -47,7 +47,7 @@ function TopCourses() {
                 </ul>
               </div>
               {/* course card listing */}
-              {<CourseCard />}
+              <CourseCard />
           </div>
         </Container>
       </section>

@@ -49,9 +49,9 @@ const CardContainer = (props) => (
 );
 
 
-function CourseCard() {
+function CourseCardContainer() {
 
-    const cardsData = [
+    const CourseCardsData = [
         {
           id: 1,
           courseName: 'Msc Data Analytics',
@@ -131,11 +131,11 @@ function CourseCard() {
   return (
     <>
         <div className="container-card">
-        <CardContainer cards={ cardsData } />
+        <CardContainer cards={ CourseCardsData } />
       </div>
     </>
   )
 }
 
 
-export default CourseCard
+export default CourseCardContainer;

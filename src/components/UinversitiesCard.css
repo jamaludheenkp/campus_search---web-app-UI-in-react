@@ -1,10 +1,8 @@
-
   
-.cards-container {
+.university-cards-container {
     display: flex;
     overflow-x: auto;
     margin: 0px 30px;
-    padding: 30px;
     &::-webkit-scrollbar {
       display: none;
     }
@@ -14,20 +12,13 @@
     flex: 1 0 250px;
     background: #fff;
     margin: 1rem;
-    padding: .5rem;
     overflow: hidden;
     cursor: pointer;
     transition: all 250ms ease-in-out;
-    
-    img {
-      width: 50px;
-      height: 50px;
-      object-fit: center;
-    }
-    
     &:hover {
-      box-shadow: 0 4px 1rem -4px #000;
+      box-shadow: 0 4px 1rem -5px #000;
       transform: translateY(-3px);
+
     }
   }
   
@@ -36,11 +27,11 @@
   }
   
   @media screen and (max-width: 625px) {
-    .container {
+    .container-card {
       width: 100%
     }
     
-    .cards-container {
+    .university-cards-container {
       padding: .5rem;
     }
     

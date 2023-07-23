@@ -2,9 +2,8 @@
 .top_universities {
     background-color: rgba(133, 174, 222, 0.225);
     margin-top: 15vh;
-    padding-top: 300px;
+    padding-top: 20rem;
     height: 115vh;
-
 }
 
 
@@ -14,7 +13,7 @@
     font-size: 42px;
     line-height: 50px;
     color: #22312E;
-    margin-top: 150px;
+    margin-top: 170px;
 }
 
 .topUniversityNav {

@@ -130,7 +130,7 @@ function CourseCardContainer() {
 
   return (
     <>
-        <div className="container-card">
+      <div className="container-card">
         <CardContainer cards={ CourseCardsData } />
       </div>
     </>

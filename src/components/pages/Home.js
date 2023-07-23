@@ -5,6 +5,7 @@ import Services from '../Services.js'
 import ExploreBox from '../ExploreBox.js'
 import TopCourses from '../TopCourses.js'
 import TopUniversities from '../TopUniversities.js'
+import Testimonials from '../Testimonials.js'
 
 
 
@@ -19,6 +20,7 @@ function Home() {
       <ExploreBox />
       <TopCourses />
       <TopUniversities />
+      <Testimonials />
       </div>
     </>
   )

@@ -6,7 +6,9 @@ import TestimonialCard from './TestimonialCard'
 
 
 
+
 const Testimonials = () => {
+
   return (
     <>
        <section className='testimonials'>
@@ -25,7 +27,7 @@ const Testimonials = () => {
                         <button className='mx-3' aria-controls='prev' tabIndex={-1} >
                             <span className='arrow' style={{fontSize:'25px', fontWeight:'800'}}> <FcPrevious /> </span>
                         </button>
-                        <button className='' aria-controls='next' tabIndex={1}>
+                        <button className='' aria-controls='next' tabIndex={1} >
                             <span className='arrow ' style={{fontSize:'25px', fontWeight:'800'}}> <FcNext /> </span>
                         </button>
                     </div>

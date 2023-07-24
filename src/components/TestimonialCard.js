@@ -40,7 +40,7 @@ const TestimonialCardContainer = (props) => (
         {
           props.cards.map((card) => (
             <Card 
-            imgUrl={ card.img } 
+            imgUrl={ card.img }
             content={card.content}
             Name={card.Name}
             course={card.course}

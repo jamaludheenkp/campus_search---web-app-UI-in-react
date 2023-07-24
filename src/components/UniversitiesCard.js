@@ -10,6 +10,7 @@ import {MdVerified} from 'react-icons/md'
 
 
 const Card = (props) => (
+  
     <div className="card rounded-3 border border-dark ">
       <img  src={ props.imgUrl } className='px-2 pt-2 rounded-5 '
         width="100%" height="200px" alt={ props.alt || 'Image' }/>

@@ -1,0 +1,30 @@
+.accordion .item {
+    border: 0;
+    border-radius: 20px;
+    padding: 1.5rem 1rem;
+    margin-top: 20px;
+    text-align: justify;
+}
+.accordion:last-child .item {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.accordion .item .accordion-header button{
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 500;
+    vertical-align: middle;
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+
+.accordion .item .accordion-header button::after {
+    transition: all .6s ease;
+}
+.accordion .item .accordion-collapse {
+    transition: all .4s ease;
+}

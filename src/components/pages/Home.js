@@ -7,6 +7,7 @@ import TopCourses from '../TopCourses.js'
 import TopUniversities from '../TopUniversities.js'
 import Testimonials from '../Testimonials.js'
 import LatestBlogs from '../LatestBlogs.js'
+import ExpertAdvice from '../ExpertAdvice.js'
 
 
 
@@ -23,6 +24,7 @@ function Home() {
         <TopUniversities />
         <Testimonials />
         <LatestBlogs />
+        <ExpertAdvice />
       </div>
     </>
   )

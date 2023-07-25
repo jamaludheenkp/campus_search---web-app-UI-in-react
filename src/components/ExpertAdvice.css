@@ -1,0 +1,35 @@
+.expertAdvice {
+    background-color: rgba(153, 208, 208, 0.177);
+    height: 100vh;
+    padding-top: 15vh ;
+    padding-left: 30px;
+
+}
+
+.container .row {
+    margin-top: 15rem;
+    display : flex;
+   flex-direction : row;
+ }
+ 
+.expertAdvice .title-Faq1 {
+    text-align:left;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #22312E;
+}
+.expertAdvice p {
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #2c2d2d;
+}
+
+.expertAdvice .title-Faq2 {
+    text-align:justify;
+    font-weight: 700;
+    font-size: 32px;
+    color: #22312E;
+}

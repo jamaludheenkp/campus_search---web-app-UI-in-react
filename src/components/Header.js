@@ -33,6 +33,9 @@ function Header() {
                 <NavDropdown.Item href="#action5">
                 Contact us 
                 </NavDropdown.Item>
+                <NavDropdown.Item href="#action6">
+                FAQ
+                </NavDropdown.Item>
               </NavDropdown>
             <Form className="search-top my-1">
               <Form.Control

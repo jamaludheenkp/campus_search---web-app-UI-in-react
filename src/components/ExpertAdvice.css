@@ -1,13 +1,13 @@
 .expertAdvice {
     background-color: rgba(153, 208, 208, 0.177);
-    height: 100vh;
-    padding-top: 15vh ;
+    height: 120vh;
+    padding-top: 20vh ;
     padding-left: 30px;
 
 }
 
 .container .row {
-    margin-top: 15rem;
+    margin-top: 20rem;
     display : flex;
    flex-direction : row;
  }

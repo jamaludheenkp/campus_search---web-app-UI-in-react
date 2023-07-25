@@ -8,6 +8,7 @@ import TopUniversities from '../TopUniversities.js'
 import Testimonials from '../Testimonials.js'
 import LatestBlogs from '../LatestBlogs.js'
 import ExpertAdvice from '../ExpertAdvice.js'
+import Footer from '../Footer.js'
 
 
 
@@ -25,6 +26,7 @@ function Home() {
         <Testimonials />
         <LatestBlogs />
         <ExpertAdvice />
+        <Footer />
       </div>
     </>
   )

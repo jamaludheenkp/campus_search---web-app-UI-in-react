@@ -9,6 +9,8 @@ import WhiteBanner from './WhiteBanner'
 
 
 
+
+
 function Banner() {
   return (
     <div className='banner pt-5'>
@@ -20,8 +22,8 @@ function Banner() {
         <div className="row pt-3">
           <div className='search-div'>
             <div className='img-admin'>
-            <img src={img_log} alt="image_login" width="50px" className='rounded-5 '/>
-            <span className='text-white p-1'> <BiSolidDownArrow/> </span>
+            <img src={img_log} alt="image_state" width="50px" className='rounded-5 '/>
+            <span className='text-white p-1' style={{cursor:'pointer'}}> <BiSolidDownArrow/> </span>
             </div>
             <input type="search" className='search-input text-white' placeholder='Search for Universities and Courses' aria-label="Search" 
             />
